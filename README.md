@@ -11,13 +11,8 @@
 
 - [Overview](#overview)
 - [Dataset Statistics](#dataset-statistics)
-- [Quick Start](#quick-start)
-- [Dataset Structure](#dataset-structure)
-- [Annotation Pipeline](#annotation-pipeline)
-- [Baseline Models](#baseline-models)
 - [Citation](#citation)
 - [License](#license)
-- [Contact](#contact)
 
 ---
 
@@ -59,11 +54,11 @@ The dataset is collected from the **Overly Sarcastic Podcast (OSPod)** and annot
 | Avg. transcript length | 31.18 words |
 | Number of speakers | 8 |
 
-### Label Distribution
 
 ---
 
 ## JSON Format
+```json
 {
   "utterance_id": "ep12_utt034",
   "speaker": "Spk_03",
@@ -72,23 +67,25 @@ The dataset is collected from the **Overly Sarcastic Podcast (OSPod)** and annot
   "text": "Usually we're separated by oceans and stars, but now we're in the same space, so uh.",
   "sarcasm": true
 }
+```
 
 
 # Citation
 If you use PodSarc in your research, please cite:
-
+```bibtex
 @inproceedings{li2026podsarc,
   title={Leveraging Large Language Models for Sarcastic Speech Annotation in Sarcasm Detection},
   author={Li, Zhu and Zhang, Yuqing and Gao, Xiyuan and Nayak, Shekhar and Coler, Matt},
   booktitle={Interspeech},
   year={2026}
 }
+```
 
 # License
 This dataset is released under the CC BY-NC 4.0 License.
 
-Permission	Status
-Academic research	✅ Allowed
-Modification & distribution	✅ Allowed
-Commercial use	❌ Not allowed
-Attribution required	✅ Yes
+- Permission	Status
+- Academic research	✅ Allowed
+- Modification & distribution	✅ Allowed
+- Commercial use	❌ Not allowed
+- Attribution required	✅ Yes
