@@ -60,14 +60,18 @@ The dataset is collected from the **Overly Sarcastic Podcast (OSPod)** and annot
 ## JSON Format
 ```json
 {
-  "utterance_id": "ep12_utt034",
-  "speaker": "Spk_03",
-  "start_time": "00:13:22.1",
-  "end_time": "00:13:31.7",
-  "text": "Usually we're separated by oceans and stars, but now we're in the same space, so uh.",
-  "sarcasm": true
-}
+    "text": "They are citizens. Why do you think the population is so big?",
+    "gpt4o_sarcasm": true,
+    "gpt4o_emotion": "sarcasm",
+    "comment": "The speaker sarcastically refers to pigeons as 'citizens' to humorously imply they contribute to the city population, enhancing the exaggerated tone.",
+    "index": 355,
+    "nid": "66_355",
+    "llama3_sarcasm": false,
+    "human_check": "sarcasm"
+  }
 ```
+
+You can find the full dataset [here](https://drive.google.com/file/d/15gS1m_SBBbI3RKfoYYHJCcO0CiEXy9dO/view?usp=drive_link).
 
 
 # Citation
@@ -81,6 +85,8 @@ If you use PodSarc in your research, please cite:
 }
 ```
 
+---
+
 # License
 This dataset is released under the CC BY-NC 4.0 License.
 
@@ -88,4 +94,3 @@ This dataset is released under the CC BY-NC 4.0 License.
 - Academic research	✅ Allowed
 - Modification & distribution	✅ Allowed
 - Commercial use	❌ Not allowed
-- Attribution required	✅ Yes
