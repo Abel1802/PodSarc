@@ -71,17 +71,18 @@ The dataset is collected from the **Overly Sarcastic Podcast (OSPod)** and annot
   }
 ```
 
-You can find the full dataset [here](https://drive.google.com/file/d/15gS1m_SBBbI3RKfoYYHJCcO0CiEXy9dO/view?usp=drive_link).
+You can find the full dataset [here](https://drive.google.com/drive/folders/1VZbhgonsEImFPeZBPPl336nXJAD9Xb3M?usp=drive_link).
 
 
 # Citation
 If you use PodSarc in your research, please cite:
 ```bibtex
-@inproceedings{li2026podsarc,
+@inproceedings{li2025leveraging,
   title={Leveraging Large Language Models for Sarcastic Speech Annotation in Sarcasm Detection},
   author={Li, Zhu and Zhang, Yuqing and Gao, Xiyuan and Nayak, Shekhar and Coler, Matt},
-  booktitle={Interspeech},
-  year={2026}
+  booktitle={Proc. Interspeech 2025},
+  pages={3973--3977},
+  year={2025}
 }
 ```
 
